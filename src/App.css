@@ -1,0 +1,30 @@
+.App {
+ display: flex;
+ width: 100%
+}
+
+.Main{
+
+  width: 70%;
+  border-right: 1px solid #dee2e6;
+}
+
+.Result{
+
+  width: 30%
+}
+
+table.table th, table.table td {
+  padding: 8px !important;
+
+}
+button:focus { outline: none !important; }
+
+.table {
+  width: 85% !important;
+margin: 10px 35px;
+}
+
+li:not(:last-child) {
+  margin-bottom: 10px;
+}
